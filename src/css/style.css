@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #03011b;
+}
+
+.card-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  user-select: none;
+}
+
+.card {
+  width: 15vw;
+  height: 100%;
+  background-color: #2a2734;
+  opacity: 0.58;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  z-index: -1;
+  color: white;
+  opacity: 0.58;
+  min-width: 200px;
+}
+
+.card div img {
+  width: 100%;
+  height: 70%;
+  background-color: #9b87fe;
+  border: 0;
+  object-fit: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.animate {
+  animation: animate-unselect 300ms;
+}
+
+.card div h4 {
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+.card div {
+  position: relative;
+  top: 10%;
+  width: 80%;
+  margin: auto;
+  height: 90%;
+}
+
+.active {
+  opacity: 1;
+  z-index: 99;
+  box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+}
+
+.prev {
+  z-index: 3;
+  transform: translate(-60%, -50%) rotate(25deg);
+}
+
+.next {
+  z-index: 2;
+  transform: translate(-50%, -50%) rotate(25deg);
+}
+
+.card-container .button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+  z-index: 100;
+}
+
+.button-container .button {
+  color: #cbbddb;
+  font-size: 32px;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.2;
+  transition: all 300ms ease-in-out;
+}
+
+.button-container .button:hover {
+  opacity: 1;
+}
+
+.button-container .button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #cbbddb;
+  z-index: -99;
+}
+
+.button-container .button:nth-child(1) {
+  float: left;
+}
+
+.button-container .button:nth-child(2) {
+  float: right;
+}

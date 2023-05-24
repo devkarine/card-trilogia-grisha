@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Card Trilogia Grisha</title>
+  </head>
+  <body>
+    <main class="card-container">
+      <div class="card prev">
+        <div>
+          <img src="src/img/bg.jpg" alt="Capa do livro" />
+          <h4>Sombra e Ossos</h4>
+        </div>
+      </div>
+
+      <div class="card active animate">
+        <div>
+          <img src="src/img/bg01.jpg" alt="Capa do livro" />
+          <h4>Sol e Tormenta</h4>
+        </div>
+      </div>
+
+      <div class="card next">
+        <div>
+          <img src="src/img/bg02.jpg" alt="Capa do livro" />
+          <h4>Ruina e Ascenção</h4>
+        </div>
+      </div>
+      <div class="button-container">
+        <div class="button" id="left"><i class="fas fa-angle-left"></i></div>
+        <div class="button" id="right"><i class="fas fa-angle-right"></i></div>
+      </div>
+    </main>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
