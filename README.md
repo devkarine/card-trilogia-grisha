@@ -1,30 +1,30 @@
-# 🖥️ Cards Trilogia Grisha"  
-
+# 🖥️ Cards Trilogia Grisha"
 
 ## 📜 Descrição
+
 Projeto realizado com o objetivo de criar um carrossel de imagens, onde clicando na seta, vão passando para próxima ou voltando.
 
-
-
 ## ✍️ Processo
+
 - Marcação semântica HTML5
 - Propriedades personalizadas de CSS3
 - JavaScript
-- Flexbox  
+- Flexbox
 - Design responsivo
 - Carrossel
 
 ### ⌨ Funcionalidades
 
 Ao clicar na seta, passa-se as imagens ou volta-se criando um efeito de carrossel.
-    
+
 ## 🖱️ A página
-<img src=" src/img/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">    
 
-> <a href="https://interface-orkut-brown.vercel.app/" target= "_blank">Acesse a página online</a>  
+<img src=" src/img/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">
 
+> <a href="https://devkarine.github.io/card-trilogia-grisha/" target= "_blank">Acesse a página online</a>
 
 ## 👩‍💻 Dev
+
 <table align="center">
   <tr>
     <td align="center">

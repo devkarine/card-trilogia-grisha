@@ -1,13 +1,17 @@
 const container = document.querySelector(".card-container");
 const cards = document.querySelectorAll(".card");
 
-const left = document.getElementById("left").addEventListener("click", function () {
-  toPrevious();
-});
+const left = document
+  .getElementById("left")
+  .addEventListener("click", function () {
+    toPrevious();
+  });
 
-const right = document.getElementById("right").addEventListener("click", function () {
-  toNext();
-});
+const right = document
+  .getElementById("right")
+  .addEventListener("click", function () {
+    toNext();
+  });
 
 let current = 0;
 
@@ -46,7 +50,7 @@ const toSlide = (number) => {
     next = 0;
   }
 
-  if (prev == - 1) {
+  if (prev == -1) {
     prev = cards.length - 1;
   }
 
